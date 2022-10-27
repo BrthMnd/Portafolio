@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    font-family: cursive;
+}
+.nav-ubi{
+    padding: 10px 30px;
+    justify-content: end;
+}
