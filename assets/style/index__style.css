@@ -1,0 +1,77 @@
+#img__principal{
+    
+    width: 100%;
+    /* width: 200px; */
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    border-radius: 30px 10px 30px 10px;
+}
+#img__presentation{
+    margin: 0 100px;
+
+}
+#foto__representativa{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+}
+#about__me{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    background-color: #D5CEA3;
+    border-radius: 20px 10px 20px 10px;
+    font-size: 20px;
+}
+#datos__personales table{
+    margin: 0 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #img__principal{
+        height: 500px;
+    } 
+    #img__presentation{
+        margin: 0 50px;
+    }
+    #about__me{
+        height: 400px;
+        margin: 20px 50px;
+    }
+    #foto__representativa{
+        width: 200px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #img__principal{
+        height: 200px;
+    } 
+    #img__presentation{
+        margin: 0 25px;
+    }
+    #about__me{
+        height: 300px;
+        margin: 20px 25px;
+    }
+    #foto__representativa{
+        width: 125px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #img__principal{
+        height: 200px;
+    } 
+    #about__me{
+        height: 300px;
+    }
+    #foto__representativa{
+        width: 75px;
+        height: 150px;
+    }
+}
