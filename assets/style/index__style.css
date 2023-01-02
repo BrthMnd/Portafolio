@@ -29,7 +29,26 @@
 #datos__personales table{
     margin: 0 20px;
 }
-
+#languages__programming{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #3C2A21;
+}
+.box__languages{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    width: 300px;
+    height: 200px;
+    background-color: #D5CEA3;
+}
+.icons__general{
+    font-size: 80px;
+}
 
 @media screen and (max-width: 1200px) {
     #img__principal{
