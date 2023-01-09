@@ -81,20 +81,50 @@
     cursor: pointer;
 }
 #burger{
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../img/Captura.PNG");
     background-size: cover;
-    background: no-repeat;
-    /* transition: 1s; */
-}
-/* .box__languages .transition__for__blur:hover{
     transition: 1s;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 5px;
     
-} */
+}
+.transition__for__blur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.transition__for__blur p{
+    
+    /* position: absolute; */
+    
+    color: #00000000;
+    transition: 1s;
+}
+#burger:hover .transition__for__blur{
+    
+    position: absolute;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 5px;
+    
+}
+#burger:hover .transition__for__blur p{
+    transition: 1s;
+    color: #000000;
+}
+#burger:hover {
+}
+
 .icons__general{
     font-size: 80px;
     color: black;
