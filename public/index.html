@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../assets/node_modules/fontawesome-free-6.2.1-web/css/all.min.css">
   <link rel="stylesheet" href="../assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
   <link rel="stylesheet" href="../assets/scripts/default__style.css">
+  <!-- <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script> -->
   <!-- <link rel="stylesheet" href="../assets/scripts/normalize.css"> -->
   <title>Portafolio</title>
   <link rel="shortcut icon" href="../assets/img/Logotipo_de_empres como icono.png" type="image/x-icon">
@@ -21,10 +22,9 @@
         style="background: no-repeat; transition: 0.6s;"></a>
     <ul>
       <li><a href="">home</a></li>
-      <li><a href="">About me</a></li>
+      <li><a href="">About</a></li>
       <li><a href="">Proyect</a></li>
-      <li><a href="">Contact me</a></li>
-      <li><a href="">Copyright</a></li>
+      <li><a href="">Contact</a></li>
 
     </ul>
   </header>
@@ -32,77 +32,162 @@
     <div id="img__presentation">
       <div id="content__start">
         <h1>Hello!</h1><br>
-        <h2>I'm Brandon Quintero</h2>
+        <h2>I'm <span style="color: rgb(255, 12, 12);">Brandon Quintero.</span></h2>
+        <h2>I'm a developer.</h2>
       </div>
     </div>
     <div id="about__me">
-      <h1 class="title">About me</h1>
-      <div id="datos__personales">
-        <table>
+      <div class="title__general">
+        <b>
+          <h1 class="title">About</h1>
+        </b>
+        <hr width="30px">
 
-          <tr>
-            <th>Name:</th>
-            <td> Brandon Alberto Quintero Mendoza</td>
-          </tr>
-          <tr>
-            <th>Languages: </th>
-            <td><b>English:</b> b2 <b>Spanish:</b> Native </td>
-          </tr>
-          <tr>
-            <th>Frontend:</th>
-            <th>Backend:</th>
-          </tr>
-          <tr>
-            <td>HTML, CSS, JS</td>
-
-            <td>Python, PHP, Node.js, java, C++</td>
-
-          </tr>
-          <tr>
-            <th>Databases: </th>
-            <td>MySQL, MongoDB, SQLServer</td>
-          </tr>
-          <tr>
-            <th>Programming in Android <br> with Android Studio</th>
-            <td>Flutter, Java</td>
-          </tr>
-          <tr>
-            <th>Hobbies:</th>
-            <td>In my spare time I like to play the piano and read books</td>
-          </tr>
-
-        </table>
       </div>
-    </div>
+      <div class="box__information">
+        <div class="boxIN">
+          <i class="fa-solid fa-user-group icons__general"></i>
+          <b>
+            <p>Team work</p>
+          </b>
+        </div>
+        <div class="boxIN">
+          <i id="light_move" class="fa-regular fa-lightbulb icons__general"></i>
+          <b>
+            <p>Creative</p>
+          </b>
+        </div>
+        <div class="boxIN">
+          <i id="rotate_circle" class="fa-solid fa-circle-notch icons__general"></i>
+          <b>
+            <p>Dynamic</p>
+          </b>
+        </div>
+        <div class="boxIN">
+          <i class="fa-solid fa-mobile-screen-button icons__general"></i>
+          <b>
+            <p>Cross-Platform</p>
+          </b>
+        </div>
+      </div>
+      <div id="date__about__me">
+        <div id="read">
+          <h1>How am I?</h1>
+          <p>I am a full-stack developer passionate about programming.</p>
+        </div>
 
-    <h1 class="title">Projects</h1>
-    <div id="languages__programming">
-      <div class="box__languages">
-        <div id="burger">
-          <div class="transition__for__blur">
-            <p class="jump__p">hola</p>
+        <div id="date__languages">
+
+          <div class="skills">
+            <div class="detalles">
+              <span>HTML5</span>
+              <span>90%</span>
+            </div>
+            <div class="menu">
+              <div id="html__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>CSS</span>
+              <span>60%</span>
+            </div>
+            <div class="menu">
+              <div id="CSS__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>JS</span>
+              <span>90%</span>
+            </div>
+            <div class="menu">
+              <div id="js__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>React and React Native</span>
+              <span>60%</span>
+            </div>
+            <div class="menu">
+              <div id="react__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>NodeJS</span>
+              <span>80%</span>
+            </div>
+            <div class="menu">
+              <div id="node__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>Python</span>
+              <span>95%</span>
+            </div>
+            <div class="menu">
+              <div id="python__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>C++</span>
+              <span>60%</span>
+            </div>
+            <div class="menu">
+              <div id="cplus__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>Java</span>
+              <span>85%</span>
+            </div>
+            <div class="menu">
+              <div id="java__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>flutter</span>
+              <span>50% and learning</span>
+            </div>
+            <div class="menu">
+              <div id="flutter__menu"></div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="detalles">
+              <span>UI design</span>
+              <span>80%</span>
+            </div>
+            <div class="menu">
+              <div id="uidesign__menu"></div>
+            </div>
           </div>
 
 
         </div>
       </div>
-      <div class="box__languages">
-        <i class="fa-brands fa-html5 icons__general"></i>
-      </div>
-      <div class="box__languages">
-        <i class="fa-brands fa-css3-alt icons__general"></i>
-      </div>
-      <div class="box__languages">
-        <i class="fa-brands fa-node icons__general"></i>
-      </div>
-      <div class="box__languages">
-        <i class="fa-brands fa-python icons__general"></i>
-      </div>
-      <div class="box__languages icons__general">
-        <i class="fa-brands fa-java"></i>
-      </div>
+
 
     </div>
+    <!-- cierre -->
+
+
+
 
   </section>
 
