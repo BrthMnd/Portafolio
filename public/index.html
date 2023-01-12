@@ -11,24 +11,26 @@
   <link rel="stylesheet" href="../assets/node_modules/sweetalert2/dist/sweetalert2.min.css">
   <link rel="stylesheet" href="../assets/scripts/default__style.css">
   <!-- <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script> -->
-  <!-- <link rel="stylesheet" href="../assets/scripts/normalize.css"> -->
+  <link rel="stylesheet" href="../assets/scripts/normalize.css">
   <title>Portafolio</title>
   <link rel="shortcut icon" href="../assets/img/Logotipo_de_empres como icono.png" type="image/x-icon">
 </head>
 
 <body>
+  <!-- navbar  -->
   <header id="navbar">
     <a href="#navbar" id="logo"> <img src="../assets/img/Logotipo_de_empres_bet.png" alt="" width="60px"
         style="background: no-repeat; transition: 0.6s;"></a>
     <ul>
-      <li><a href="">home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Proyect</a></li>
-      <li><a href="">Contact</a></li>
+      <li><a href="#img__presentation">home</a></li>
+      <li><a href="#about__me">About</a></li>
+      <li><a href="#projects">Proyect</a></li>
+      <li><a href="#contact">Contact</a></li>
 
     </ul>
   </header>
   <section class="banner">
+    <!-- presentacion -->
     <div id="img__presentation">
       <div id="content__start">
         <h1>Hello!</h1><br>
@@ -36,6 +38,7 @@
         <h2>I'm a developer.</h2>
       </div>
     </div>
+    <!-- about  -->
     <div id="about__me">
       <div class="title__general">
         <b>
@@ -70,6 +73,7 @@
           </b>
         </div>
       </div>
+      <!-- about  -->
       <div id="date__about__me">
         <div id="read">
           <h1>How am I?</h1>
@@ -182,7 +186,7 @@
         </div>
       </div>
     </div>
-
+    <!-- proyectos -->
     <div id="projects">
       <div class="title__general">
         <b>
@@ -194,9 +198,6 @@
         <div id="img__pagina" class="boxin_projects">
           <div id="img__pagina__date" class="hover__white">
             <i class="fa-solid fa-magnifying-glass-plus icons__default__blur"></i>
-            <b>
-              <p>Hola</p>
-            </b>
           </div>
         </div>
         <div id="img__anime" class="boxin_projects">
@@ -213,14 +214,56 @@
 
 
       </div>
+      <!-- contacto  -->
+      <div id="contact">
+        <div class="title__general" style="color: white; ">
+          <b>
+            <h1 class="title" style="color: white; margin-bottom: 100px;">Contact</h1>
+          </b>
+          <hr width="30px">
+        </div>
+        <div id="Contact__area">
+          <!-- method="POST" -->
+          <form action="https://formsubmit.co/a678aefda091b06d29dc59a6fa49fdf7" method="POST" id="form__style">
+            <input type="text" name="name" placeholder="Name">
+
+            <input type="email" name="email" class="inputs__contact" placeholder="Enter Email">
+
+            <textarea name="textarea" id="textarea__style" cols="30" rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit" id="submit__form">SUBMIT</button>
+
+            <input type="hidden" name="_next" value="https://brthmnd.github.io/Portafolio/public/">
+            <input type="hidden" name="_captcha" value="false">
+
+          </form>
+        </div>
+      </div>
 
     </div>
+
     <!-- cierre -->
 
-
-
-
   </section>
+  <footer id="footer__pr">
+
+
+    <div id="socials">
+      <div id="socials__content">
+        <a href="https://www.linkedin.com/in/brandon-quintero-developer/"><i
+            class="fa-brands fa-linkedin icons__socials"></i></a>
+        <a href=""><i class="fa-brands fa-twitter icons__socials"></i></a>
+      </div>
+      <div id="Copyright">
+        <p>Brandon Quintero <span id="span__year">2023*</span></p>
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
 
 
 
