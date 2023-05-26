@@ -173,40 +173,13 @@
     background-color: cyan;
     border-radius: 10px;
 }
-#html__menu{
-    animation: html_menu 1s forwards;
-
-}
-@keyframes html_menu {
-    100%{
-        width: 90%;
-    }
-}
-#CSS__menu{
-    animation: css_menu 1s forwards;
-
-}
-@keyframes css_menu {
-    100%{
-        width: 60%;
-    }
-}
-#js__menu{
-    animation: js_menu 1s forwards;
-
-}
-@keyframes js_menu {
-    100%{
-        width: 90%;
-    }
-}
 #react__menu{
     animation: react__menu 1s forwards;
 
 }
 @keyframes react__menu {
     100%{
-        width: 60%;
+        width: 90%;
     }
 }
 #node__menu{
@@ -215,43 +188,7 @@
 }
 @keyframes node__menu {
     100%{
-        width: 80%;
-    }
-}
-#python__menu{
-    animation: python__menu 1s forwards;
-
-}
-@keyframes python__menu {
-    100%{
-        width: 95%;
-    }
-}
-#cplus__menu{
-    animation: cplus__menu 1s forwards;
-
-}
-@keyframes cplus__menu {
-    100%{
-        width: 60%;
-    }
-}
-#java__menu{
-    animation: java__menu 1s forwards;
-
-}
-@keyframes java__menu {
-    100%{
-        width: 85%;
-    }
-}
-#flutter__menu{
-    animation: flutter__menu 1s forwards;
-
-}
-@keyframes flutter__menu {
-    100%{
-        width: 50%;
+        width: 100%;
     }
 }
 #uidesign__menu{
@@ -274,7 +211,7 @@
 
 }
 #img__pagina{
-    background-image: url("../img/Captura.PNG");
+    background-image: url("../img/Portafolio.png");
     background-size:  contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,14 +219,14 @@
     
 }
 #img__anime{
-    background-image: url("../img/captura_anime.png");
+    background-image: url("../img/TaskTierlist.png");
     background-size:  contain;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 #img__color{
-    background-image: url("../img/Captura_colorhunt.png");
+    background-image: url("../img/crud.png");
     background-size:  contain;
     background-repeat: no-repeat;
     background-position: center;
